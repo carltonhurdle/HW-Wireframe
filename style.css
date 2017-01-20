@@ -1,3 +1,8 @@
+/*Carlton Hurdle
+Bootcamp Rutgers Jan-Jul 2017
+Looks great in Chrome at 75% ratio
+*/
+
 body {
 	background: #777;
 }
@@ -13,77 +18,93 @@ section {
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
+	text-align: center;
 }
 
 #header {
 	width: 960px;
 	padding: 25px;
 	background: #ebebeb;
-	text-align: center;
 	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
 }
 
 #nav {
 	width: 960px;
-	padding: 25px;	
+	padding: 25px;
 	background: #ebebeb;
-	text-align: center;
 	color: #777;
+}
+
+#sectionblock {
+	width: 100%;
+	position: relative;
 }
 
 #section {
-	position: relative;
+	position: absolute;
+	left: 16%;
 	width: 495px;
 	height: 200px;
-	padding: 40px;	
+	padding: 10px 10px 50px 10px;
 	background: #ebebeb;
-	text-align: center;
 	color: #777;
-	display: inline-block;
-	margin: auto;
-}
-
-#aside {
-	position: relative;
-	width: 465px;
-	height: 200px;
-	background: #ebebeb;
-	text-align: center;
-	padding: 25px;
-	color: #777;
-	display: inline-block;
 }
 
 #article {
-	border: 1px solid black;
-	position: absolute;
+	margin: auto;
 	background: #777;
-	text-align: center;
 	color: #ebebeb;
+	padding: 15px 40px 10px 40px;
+}
+
+header {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
 }
 
 #headers {
 	background: #ebebeb;
- 	border: 1px solid blue;
  	width: 380px;
-	text-align: center;
 	color: #777;
+	padding: 3px;
 }
 
 #paragraph {
 	background: #ebebeb;
-	border: 1px solid blue;
 	width: 380px;
-	text-align: center;
 	color: #777;
+	padding: 3px;
+}
+
+#asideblock {
+	width: 100%;
+	position: relative;
+}
+
+#aside {
+	position: absolute;
+	right: 16%;
+	width: 465px;
+	height: 200px;
+	background: #ebebeb;
+	padding: 10px 10px 50px 10px;
+	color: #777;
+	display: inline-block;
 }
 
 #footer {
 	width: 960px;
 	background: #ebebeb;
-	text-align: center;
-	padding: 25px;	
+	padding: 25px;
 	color: #777;
+	position: absolute;
+	bottom: 10%;
+	left: 16%;
+	right: 50%;
 }
 
 section.clear {
